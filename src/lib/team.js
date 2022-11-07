@@ -3,6 +3,7 @@ import Anuskha from "../images/anushka.webp";
 import Arnav from "../images/arnav.webp";
 import Tinu from "../images/tinu.jpeg";
 import Jonathan from "../images/jonathan.png";
+import Georgia from "../images/georgia.jpeg";
 
 export default [
 	{
@@ -47,9 +48,9 @@ export default [
 		imageSrc: Jonathan,
 	},
 	{
-		name: "Yun Yeung",
-		title: "Content & Outreach Team",
-		imageSrc: Viveka,
+		name: "Georgia Levine",
+		title: "Outreach Manger and Content Team",
+		imageSrc: Georgia,
 	},
 	{
 		name: "Arnav Poddar",
@@ -57,13 +58,13 @@ export default [
 		imageSrc: Arnav,
 	},
 	{
-		name: "Debbie Kebede",
-		title: "Content Team",
+		name: "Yun Yeung",
+		title: "Content & Outreach Team",
 		imageSrc: Viveka,
 	},
 	{
-		name: "Georgia Levine",
-		title: "Outreach Team",
+		name: "Debbie Kebede",
+		title: "Content Team",
 		imageSrc: Viveka,
 	},
 ];
