@@ -1,5 +1,8 @@
 import Viveka from "../images/viveka.jpg";
+import Anuskha from "../images/anushka.webp";
+import Arnav from "../images/arnav.webp";
 import Tinu from "../images/tinu.jpeg";
+import Jonathan from "../images/jonathan.png";
 
 export default [
 	{
@@ -10,7 +13,7 @@ export default [
 	{
 		name: "Anushka Poddar",
 		title: "Co-Founder & Website Team",
-		imageSrc: Viveka,
+		imageSrc: Anuskha,
 	},
 	{
 		name: "Ananya Roy",
@@ -41,7 +44,7 @@ export default [
 	{
 		name: "Jonathan Fan",
 		title: "Content Team Manager",
-		imageSrc: Viveka,
+		imageSrc: Jonathan,
 	},
 	{
 		name: "Yun Yeung",
@@ -51,7 +54,7 @@ export default [
 	{
 		name: "Arnav Poddar",
 		title: "Content & Website Team",
-		imageSrc: Viveka,
+		imageSrc: Arnav,
 	},
 	{
 		name: "Debbie Kebede",
