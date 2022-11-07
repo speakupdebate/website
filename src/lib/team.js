@@ -1,4 +1,5 @@
 import Viveka from "../images/viveka.jpg";
+import Tinu from "../images/tinu.jpeg";
 
 export default [
 	{
@@ -29,7 +30,7 @@ export default [
 	{
 		name: "Tinu Vanapamula",
 		title: "Website Team Manager",
-		imageSrc: Viveka,
+		imageSrc: Tinu,
 		link: "https://tinu.tech",
 	},
 	{
@@ -44,17 +45,12 @@ export default [
 	},
 	{
 		name: "Yun Yeung",
-		title: "Content Team & Outreach Team",
+		title: "Content & Outreach Team",
 		imageSrc: Viveka,
 	},
 	{
 		name: "Arnav Poddar",
-		title: "Content Team & Website Team",
-		imageSrc: Viveka,
-	},
-	{
-		name: "Ananya Roy",
-		title: "Content Team",
+		title: "Content & Website Team",
 		imageSrc: Viveka,
 	},
 	{
