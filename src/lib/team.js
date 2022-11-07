@@ -17,9 +17,35 @@ export default [
 		imageSrc: Anuskha,
 	},
 	{
+		name: "Georgia Levine",
+		title: "Outreach Manger & Content Team",
+		imageSrc: Georgia,
+	},
+	{
 		name: "Ananya Roy",
 		title: "Social Media Manager & Content Team",
 		imageSrc: Viveka,
+	},
+	{
+		name: "Jonathan Fan",
+		title: "Content Team Manager",
+		imageSrc: Jonathan,
+	},
+	{
+		name: "Tejusvi Vijay",
+		title: "Adminstrative Officer & Website Team",
+		imageSrc: Viveka,
+	},
+	{
+		name: "Tinu Vanapamula",
+		title: "Website Team Manager",
+		imageSrc: Tinu,
+		link: "https://tinu.tech",
+	},
+	{
+		name: "Arnav Poddar",
+		title: "Content & Website Team",
+		imageSrc: Arnav,
 	},
 	{
 		name: "Edric Li",
@@ -30,32 +56,6 @@ export default [
 		name: "Aarav Motivala",
 		title: "Social Media Team",
 		imageSrc: Viveka,
-	},
-	{
-		name: "Tinu Vanapamula",
-		title: "Website Team Manager",
-		imageSrc: Tinu,
-		link: "https://tinu.tech",
-	},
-	{
-		name: "Tejusvi Vijay",
-		title: "Adminstrative Officer & Website Team",
-		imageSrc: Viveka,
-	},
-	{
-		name: "Jonathan Fan",
-		title: "Content Team Manager",
-		imageSrc: Jonathan,
-	},
-	{
-		name: "Georgia Levine",
-		title: "Outreach Manger and Content Team",
-		imageSrc: Georgia,
-	},
-	{
-		name: "Arnav Poddar",
-		title: "Content & Website Team",
-		imageSrc: Arnav,
 	},
 	{
 		name: "Yun Yeung",
