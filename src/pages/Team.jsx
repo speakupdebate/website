@@ -1,24 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../partials/Header";
-import Viveka from "../images/viveka.jpg";
+import team from "../lib/team";
 
 function Team() {
-	const people = [
-		{
-			name: "Viveka Sinha",
-			title: "President & Co-Founder",
-			imageSrc: Viveka,
-			link: undefined,
-		},
-		{
-			name: "Anushka Poddar",
-			title: "Co-Founder",
-			imageSrc: Viveka,
-			link: "https://tinu.tech",
-		},
-	];
-
 	return (
 		<div className="flex flex-col min-h-screen overflow-hidden">
 			{/*  Site header */}
@@ -38,27 +23,29 @@ function Team() {
 
 							{/* Form */}
 							<div className="flex flex-wrap justify-center gap-10">
-								{people.map(({ name, title, imageSrc, link }, i) => (
-									<div key={i}>
-										{link ? (
-											<a href={link} target="blank">
+								{team.map(({ name, title, imageSrc, link }, i) => (
+									<div key={i} className="w-48">
+										<div className="transition-all duration-300 hover:scale-105 mx-auto">
+											{link ? (
+												<a href={link} target="blank">
+													<img
+														src={imageSrc}
+														alt={name}
+														className="w-48 h-48 rounded-full"
+														data-aos="zoom-y-out"
+														data-aos-delay={150 + 150 * i}
+													/>
+												</a>
+											) : (
 												<img
 													src={imageSrc}
 													alt={name}
-													className="w-48 h-48 rounded-full transition-all duration-300 transform mx-auto hover:scale-105"
+													className="w-48 h-48 rounded-full"
 													data-aos="zoom-y-out"
 													data-aos-delay={150 + 150 * i}
 												/>
-											</a>
-										) : (
-											<img
-												src={imageSrc}
-												alt={name}
-												className="w-48 h-48 rounded-full transition-all duration-300 transform mx-auto hover:scale-105"
-												data-aos="zoom-y-out"
-												data-aos-delay={150 + 150 * i}
-											/>
-										)}
+											)}
+										</div>
 										<p
 											className="font-semibold text-center pt-4 text-md"
 											data-aos="zoom-y-out"
@@ -67,7 +54,7 @@ function Team() {
 											{name}
 										</p>
 										<p
-											className="font-semibold text-center text-md"
+											className="font-semibold text-center text-md text-overflow-ellipsis"
 											data-aos="zoom-y-out"
 											data-aos-delay={250 + 150 * i}
 										>
