@@ -36,10 +36,34 @@ function Header() {
 						<ul className="flex flex-grow justify-end flex-wrap items-center">
 							<li>
 								<Link
+									to="/"
+									className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+								>
+									Home
+								</Link>
+							</li>
+							<li>
+								<Link
+									to="/about"
+									className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+								>
+									About
+								</Link>
+							</li>
+							<li>
+								<Link
 									to="/team"
 									className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
 								>
 									Team
+								</Link>
+							</li>
+							<li>
+								<Link
+									to="/contact"
+									className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+								>
+									Contact
 								</Link>
 							</li>
 							<li>

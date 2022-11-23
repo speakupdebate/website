@@ -10,6 +10,10 @@ import Home from "./pages/Home";
 import Team from "./pages/Team";
 import SignUp from "./pages/SignUp";
 import ResetPassword from "./pages/ResetPassword";
+import Contact from "./pages/Contact";
+import Header from "./partials/Header";
+import Footer from "./partials/Footer";
+import About from "./pages/About";
 
 function App() {
 	const location = useLocation();
@@ -31,12 +35,16 @@ function App() {
 
 	return (
 		<>
+			<Header />
 			<Routes>
 				<Route exact path="/" element={<Home />} />
 				<Route path="/team" element={<Team />} />
 				<Route path="/signup" element={<SignUp />} />
 				<Route path="/reset-password" element={<ResetPassword />} />
+				<Route path="/contact" element={<Contact />} />
+				<Route path="/about" element={<About />} />
 			</Routes>
+			<Footer />
 		</>
 	);
 }

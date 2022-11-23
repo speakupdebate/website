@@ -6,9 +6,6 @@ import team from "../lib/team";
 function Team() {
 	return (
 		<div className="flex flex-col min-h-screen overflow-hidden">
-			{/*  Site header */}
-			<Header />
-
 			{/*  Page content */}
 			<main className="flex-grow">
 				<section className="bg-gradient-to-b from-gray-100 to-white">

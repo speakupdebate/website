@@ -49,7 +49,7 @@ function HeroHome() {
 							data-aos="zoom-y-out"
 						>
 							Speak Up{" "}
-							<span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+							<span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-emerald-400">
 								Debate
 							</span>
 						</h1>
@@ -69,7 +69,7 @@ function HeroHome() {
 							>
 								<div>
 									<a
-										className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+										className="btn text-white bg-emerald-500 hover:bg-emerald-600 w-full mb-4 sm:w-auto sm:mb-0"
 										href="#0"
 									>
 										Sign Up Today
