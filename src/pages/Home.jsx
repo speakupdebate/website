@@ -17,7 +17,7 @@ function Home() {
 				<HeroHome />
 				{/* <FeaturesHome /> */}
 				{/* <FeaturesBlocks /> */}
-				<Testimonials />
+				{/* <Testimonials /> */}
 				{/* <Newsletter /> */}
 			</main>
 		</div>

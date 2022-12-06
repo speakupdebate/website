@@ -13,6 +13,18 @@ export default function About() {
 								<h1 className="h1" data-aos="zoom-y-out">
 									About Us
 								</h1>
+								<p
+									className="text-left pt-6"
+									data-aos="zoom-y-out"
+									data-aos-delay={150}
+								>
+									In March 2022, Speak Up was created by high school debate
+									students as a virtual spring break camp for 15 students in
+									Maryland. Since then, Speak Up has reached 100+ elementary and
+									middle school students through its summer debate programs. We
+									hope to empower more students in our community through our
+									coming winter, spring, and summer programs.
+								</p>
 							</div>
 						</div>
 					</div>
