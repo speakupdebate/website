@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Modal from "../utils/Modal";
+import { Link } from "react-router-dom";
 
 import HeroImage from "../images/zoom.png";
 
@@ -68,12 +68,12 @@ function HeroHome() {
 								data-aos-delay="300"
 							>
 								<div>
-									<a
+									<Link
 										className="btn text-white bg-emerald-500 hover:bg-emerald-600 w-full mb-4 sm:w-auto sm:mb-0"
-										href="#0"
+										to="/signup"
 									>
 										Sign Up Today
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
