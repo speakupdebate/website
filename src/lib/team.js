@@ -4,6 +4,7 @@ import Arnav from "../images/arnav.webp";
 import Tinu from "../images/tinu.jpeg";
 import Jonathan from "../images/jonathan.png";
 import Georgia from "../images/georgia.jpeg";
+import Teju from "../images/teju.jpg";
 
 export default [
 	{
@@ -34,7 +35,7 @@ export default [
 	{
 		name: "Tejusvi Vijay",
 		title: "Adminstrative Officer & Website Team",
-		imageSrc: Viveka,
+		imageSrc: Teju,
 	},
 	{
 		name: "Tinu Vanapamula",

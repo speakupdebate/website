@@ -16,8 +16,8 @@ function Home() {
 				{/*  Page sections */}
 				<HeroHome />
 				{/* <FeaturesHome /> */}
-				{/* <FeaturesBlocks /> */}
-				{/* <Testimonials /> */}
+				<FeaturesBlocks />
+				<Testimonials />
 				{/* <Newsletter /> */}
 			</main>
 		</div>

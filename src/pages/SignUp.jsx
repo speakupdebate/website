@@ -17,6 +17,15 @@ function SignUp() {
 									Sign Up Today
 								</h1>
 							</div>
+							<iframe
+								src="https://docs.google.com/forms/d/e/1FAIpQLSegcZhlkMdiPyJmSKyeixGayNzugRFnyILKBTgr0txRl_9z8g/viewform?embedded=true"
+								className="w-full h-screen"
+								frameborder="0"
+								marginheight="0"
+								marginwidth="0"
+							>
+								Loading…
+							</iframe>
 						</div>
 					</div>
 				</section>
