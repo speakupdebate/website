@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import Instagram from "../images/instagram.svg";
 import HeroImage from "../images/zoom.png";
+import { FiExternalLink } from "react-icons/fi";
 
 function HeroHome() {
 	const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -87,13 +88,20 @@ function HeroHome() {
 							data-aos-delay="450"
 						>
 							<div className="flex flex-col justify-center">
-								<img
-									className="mx-auto"
-									src={HeroImage}
-									width="768"
-									height="432"
-									alt="Hero"
-								/>
+								<div className="mx-auto relative">
+									<img
+										className="mx-auto"
+										src={HeroImage}
+										width="768"
+										height="432"
+										alt="Hero"
+									/>
+									<a href="https://instagram.com/speakup.camp" target="_blank">
+										<p className="z-10 absolute bg-emerald-500 hover:bg-emerald-600 text-white rounded-sm p-2 font-semibold top-2 right-2 flex gap-2 items-center">
+											View more pics on Instagram <FiExternalLink />
+										</p>
+									</a>
+								</div>
 								<svg
 									className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
 									width="768"
