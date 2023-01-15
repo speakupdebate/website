@@ -17,7 +17,7 @@ function Footer() {
 								<img src={Logo} className="w-10 h-10" />
 							</Link>
 						</div>
-						<div className="text-sm text-gray-600">© 2022 Speak Up Debate</div>
+						<div className="text-sm text-gray-600">© 2023 Speak Up Debate</div>
 					</div>
 
 					<div>
