@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Header from "../partials/Header";
-import { team } from "../lib/team";
 import { FiExternalLink } from "react-icons/fi";
+import { heads } from "../lib/team";
 
-function Team() {
+export default function ChapterHeads() {
 	return (
 		<div className="flex flex-col min-h-screen overflow-hidden">
 			{/*  Page content */}
@@ -15,21 +14,14 @@ function Team() {
 							{/* Page header */}
 							<div className="max-w-3xl mx-auto text-center pb-6 md:pb-10 flex items-center flex-col">
 								<h1 className="h1 pb-4" data-aos="zoom-y-out">
-									Our Team
+									Chapter Heads
 								</h1>
-								<Link
-									data-aos="zoom-y-out"
-									data-aos-delay={150}
-									to="/team/chapter-heads"
-									className="btn w-max bg-emerald-500 hover:bg-emerald-600 text-white rounded-md p-3 font-semibold top-2 right-2 flex gap-2 items-center"
-								>
-									<FiExternalLink /> View Chapter Heads
-								</Link>
 							</div>
 
 							{/* Form */}
+							{/* Form */}
 							<div className="flex flex-wrap justify-center gap-10">
-								{team.map(({ name, title, imageSrc, link }, i) => (
+								{heads.map(({ name, title, imageSrc, link }, i) => (
 									<div key={i} className="w-48">
 										<div className="transition-all duration-300 hover:scale-105 mx-auto">
 											{link ? (
@@ -76,5 +68,3 @@ function Team() {
 		</div>
 	);
 }
-
-export default Team;

@@ -5,8 +5,10 @@ import Tinu from "../images/tinu.jpeg";
 import Jonathan from "../images/jonathan.png";
 import Georgia from "../images/georgia.jpeg";
 import Teju from "../images/teju.jpg";
+import Ananya from "../images/ananya.jpg";
+import Aarav from "../images/aarav.png";
 
-export default [
+const team = [
 	{
 		name: "Viveka Sinha",
 		title: "President & Co-Founder",
@@ -19,17 +21,17 @@ export default [
 	},
 	{
 		name: "Georgia Levine",
-		title: "Outreach Manger & Content Team",
+		title: "Outreach Director & Content Team",
 		imageSrc: Georgia,
 	},
 	{
 		name: "Ananya Roy",
-		title: "Social Media Manager & Content Team",
-		imageSrc: Viveka,
+		title: "Social Media Director & Content Team",
+		imageSrc: Ananya,
 	},
 	{
 		name: "Jonathan Fan",
-		title: "Content Team Manager",
+		title: "Content Team Director",
 		imageSrc: Jonathan,
 	},
 	{
@@ -39,7 +41,7 @@ export default [
 	},
 	{
 		name: "Tinu Vanapamula",
-		title: "Website Team Manager",
+		title: "Website Team Director",
 		imageSrc: Tinu,
 		link: "https://tinu.tech",
 	},
@@ -56,7 +58,7 @@ export default [
 	{
 		name: "Aarav Motivala",
 		title: "Social Media Team",
-		imageSrc: Viveka,
+		imageSrc: Aarav,
 	},
 	{
 		name: "Yun Yeung",
@@ -69,3 +71,38 @@ export default [
 		imageSrc: Viveka,
 	},
 ];
+
+const heads = [
+	{
+		name: "Georgia Levine",
+		title: "Maryland Chapter Head",
+		imageSrc: Georgia,
+	},
+	{
+		name: "Aarav Motivala",
+		title: "New Jersey Chapter Head",
+		imageSrc: Aarav,
+	},
+	{
+		name: "Ananya Roy",
+		title: "India Chapter Head",
+		imageSrc: Ananya,
+	},
+	{
+		name: "Jonathan Fan",
+		title: "China Chapter Head",
+		imageSrc: Jonathan,
+	},
+	{
+		name: "Juliet Garon",
+		title: "New York Chapter Head",
+		imageSrc: Viveka,
+	},
+	{
+		name: "Tobin Wilson",
+		title: "Virigina Chapter Head",
+		imageSrc: Viveka,
+	},
+];
+
+export { team, heads };

@@ -90,7 +90,7 @@ function HeroHome() {
 							<div className="flex flex-col justify-center">
 								<div className="mx-auto relative">
 									<img
-										className="mx-auto"
+										className="mx-auto rounded-sm"
 										src={HeroImage}
 										width="768"
 										height="432"
