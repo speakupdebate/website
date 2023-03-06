@@ -7,6 +7,7 @@ import Georgia from "../images/georgia.jpeg";
 import Teju from "../images/teju.jpg";
 import Ananya from "../images/ananya.jpg";
 import Aarav from "../images/aarav.png";
+import logo from "../images/speak.png";
 
 const team = [
 	{
@@ -53,7 +54,7 @@ const team = [
 	{
 		name: "Edric Li",
 		title: "Social Media Team",
-		imageSrc: Viveka,
+		imageSrc: logo,
 	},
 	{
 		name: "Aarav Motivala",
@@ -63,12 +64,12 @@ const team = [
 	{
 		name: "Yun Yeung",
 		title: "Content & Outreach Team",
-		imageSrc: Viveka,
+		imageSrc: logo,
 	},
 	{
 		name: "Debbie Kebede",
 		title: "Content Team",
-		imageSrc: Viveka,
+		imageSrc: logo,
 	},
 ];
 
@@ -96,13 +97,23 @@ const heads = [
 	{
 		name: "Juliet Garon",
 		title: "New York Chapter Head",
-		imageSrc: Viveka,
+		imageSrc: logo,
 	},
 	{
 		name: "Tobin Wilson",
 		title: "Virigina Chapter Head",
-		imageSrc: Viveka,
+		imageSrc: logo,
 	},
+	{
+		name: "Kyrbex",
+		title: "Texas Chapter Head",
+		imageSrc: logo,
+	},
+	{
+		name: "Aditya Anantaraman",
+		title: "California Chapter Head",
+		imageSrc: logo,
+	}
 ];
 
 export { team, heads };
