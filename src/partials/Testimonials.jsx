@@ -51,7 +51,10 @@ function Testimonials() {
 					</div>
 
 					{/* Testimonials */}
-					<div className="max-w-3xl mx-auto" data-aos="zoom-y-out">
+					<div
+						className="max-w-3xl mx-auto flex flex-col justify-center gap-3"
+						data-aos="zoom-y-out"
+					>
 						<div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
 							{/* Testimonial */}
 							<div className="text-center px-12 py-8 mx-4 md:mx-0">
@@ -63,6 +66,69 @@ function Testimonials() {
 								</blockquote>
 								<cite className="block font-bold text-lg not-italic mb-1">
 									- Sweta Ladwa
+								</cite>
+							</div>
+						</div>
+						<div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+							{/* Testimonial */}
+							<div className="text-center px-12 py-8 mx-4 md:mx-0">
+								<div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2"></div>
+								<blockquote className="text-xl font-medium mb-4">
+									"Organizers and instructors, I want to thank you for taking
+									time during your spring break to put this class together.
+									Standing ovation to the organizers, I was so impressed with
+									just the initiative when we registered but so much more
+									impressed when I heard from my kids each day about the class.
+									They enjoyed it!! Thank you again and keep it up!!""
+								</blockquote>
+								<cite className="block font-bold text-lg not-italic mb-1">
+									- Risi Idiokitas
+								</cite>
+							</div>
+						</div>
+						<div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+							{/* Testimonial */}
+							<div className="text-center px-12 py-8 mx-4 md:mx-0">
+								<div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2"></div>
+								<blockquote className="text-xl font-medium mb-4">
+									"We are very grateful to your coaching and support and the
+									passion. we really appreciate it. This is third season our
+									daughter participated. We really thank you for all motivation,
+									guidance and support. Much grateful."
+								</blockquote>
+								<cite className="block font-bold text-lg not-italic mb-1">
+									- Vijay Chandrashekar
+								</cite>
+							</div>
+						</div>
+						<div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+							{/* Testimonial */}
+							<div className="text-center px-12 py-8 mx-4 md:mx-0">
+								<div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2"></div>
+								<blockquote className="text-xl font-medium mb-4">
+									"Thank you very much for organizing this debate and speak up
+									summer camp. Really appreciate all your time and effort with
+									the kids! My son really loved being part of the camp and I
+									could see that he was not happy about the camp coming to an
+									end. That shows how he enjoyed being part of this camp and had
+									fun. Really look forward to being part of future debate and
+									speak up camps!"
+								</blockquote>
+								<cite className="block font-bold text-lg not-italic mb-1">
+									- Sathya Ramachandran
+								</cite>
+							</div>
+						</div>
+						<div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+							{/* Testimonial */}
+							<div className="text-center px-12 py-8 mx-4 md:mx-0">
+								<div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2"></div>
+								<blockquote className="text-xl font-medium mb-4">
+									"Thank you. Both my kids enjoyed and learnt a lot from this
+									session and looking forward to joining [the next] session."
+								</blockquote>
+								<cite className="block font-bold text-lg not-italic mb-1">
+									- Amirtha Mathavan
 								</cite>
 							</div>
 						</div>
