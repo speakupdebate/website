@@ -18,7 +18,7 @@ function SignUp() {
 								</h1>
 							</div>
 							<iframe
-								src="https://docs.google.com/forms/d/e/1FAIpQLSegcZhlkMdiPyJmSKyeixGayNzugRFnyILKBTgr0txRl_9z8g/viewform?embedded=true"
+								src="https://docs.google.com/forms/d/e/1FAIpQLScRRJOqiNrDpDSVknmXfY65pSsOdPZ936BM6GrbwyyS14dPRg/viewform?embedded=true"
 								className="w-full h-screen"
 								frameborder="0"
 								marginheight="0"
