@@ -37,7 +37,7 @@ function Team() {
 													<img
 														src={imageSrc}
 														alt={name}
-														className="w-48 h-48 rounded-full"
+														className="w-48 h-48 rounded-full object-cover"
 														data-aos="zoom-y-out"
 														data-aos-delay={300 + 150 * i}
 													/>
@@ -46,7 +46,7 @@ function Team() {
 												<img
 													src={imageSrc}
 													alt={name}
-													className="w-48 h-48 rounded-full"
+													className="w-48 h-48 rounded-full object-cover"
 													data-aos="zoom-y-out"
 													data-aos-delay={150 + 150 * i}
 												/>

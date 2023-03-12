@@ -7,6 +7,7 @@ import Georgia from "../images/georgia.jpeg";
 import Teju from "../images/teju.jpg";
 import Ananya from "../images/ananya.jpg";
 import Aarav from "../images/aarav.png";
+import Tobin from "../images/tobin.png";
 import logo from "../images/speak.png";
 
 const team = [
@@ -102,7 +103,7 @@ const heads = [
 	{
 		name: "Tobin Wilson",
 		title: "Virigina Chapter Head",
-		imageSrc: logo,
+		imageSrc: Tobin,
 	},
 	{
 		name: "Kyrbex",
